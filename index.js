@@ -8,11 +8,11 @@ import './style/style.css';
 import { Provider } from 'react-redux';
 import store from './src/store';
 
-import Layout from './src/Layout/Layout';
+import App from './src/app/App';
 
 const app = document.getElementById('app');
 ReactDOM.render(
   <Provider store={store}>
-    <Layout />
+    <App />
   </Provider>
   , app);

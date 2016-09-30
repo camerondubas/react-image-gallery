@@ -1,38 +1,12 @@
-// var webpack = require('webpack');
-// var path = require('path');
-//
-// var BUILD_DIR = path.resolve(__dirname, 'dist');
-// var APP_DIR = path.resolve(__dirname, 'src');
-//
-// var config = {
-//   entry: APP_DIR + '/index.jsx',
-//   output: {
-//     path: BUILD_DIR,
-//     filename: 'bundle.js'
-//   },
-//   module : {
-//     loaders : [
-//       {
-//         test : /\.jsx?/,
-//         include : APP_DIR,
-//         loader : 'babel'
-//       }
-//     ]
-//   }
-// };
-//
-// module.exports = config;
-
-  let ExtractTextPlugin = require('extract-text-webpack-plugin');
-
 'use strict';
 
 // Modules
 let webpack = require('webpack');
+let ExtractTextPlugin = require('extract-text-webpack-plugin');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 const BUILD = Boolean((process.argv.indexOf('--production') > -1));
 
-module.exports = buildConfig('./index.js', './public', '/');
+module.exports = buildConfig('./index.js', './public', '');
 
 /**
  * Builds a webpack config object

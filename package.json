@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --inline --progress --port=8080",
+    "build": "webpack --production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

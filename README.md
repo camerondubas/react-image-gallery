@@ -20,6 +20,14 @@ npm run start
 
 navigate to `localhost:8080`
 
+#### Distribution Build
+
+```
+npm run build
+```
+
+files are put in the `/public` folder
+
 ## Overview
 I decided to build this project as a React App because I am still learning React and wanted to challenge myself. 
 I built it as an infinite scrolling application with a simple lightbox effect when an image is selected. 
