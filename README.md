@@ -22,8 +22,9 @@ navigate to `localhost:8080`
 
 ## Overview
 I decided to build this project as a React App because I am still learning React and wanted to challenge myself. 
-I built it as an inifite scrolling application with a simple lightbox effect when an image is selected. 
+I built it as an infinite scrolling application with a simple lightbox effect when an image is selected. 
 Both these decisions were made as they seem to be the current standard UX for photo gallery apps.
+I set a self-enforced time-limit of 3 hours to work on this project, so that I had to scale the project scope to meet the deadline.
 
 ## Dev Workflow
 This project is using Webpack for real-time module reloading and along with Babel for transpiling ES2015 code. 
