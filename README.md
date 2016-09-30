@@ -41,7 +41,13 @@ This workflow was chosen because I am very comfortable in Webpack and feel that 
 
 ## Future Features
 If this was an ongoing project, here are a few features that I would like to implement:
+
 1. Routing (via React Router)
 2. State Change Animations
 3. Search and Filter Options
 4. Improved UX/UI
+5. Further breakdown of components into small re-usable chunks
+
+## Know Issues
+
+- Inconsistent CORS issues from the Pixabay API. I suspect this is due to developing locally on localhost:8080.

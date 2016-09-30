@@ -10,7 +10,7 @@ const defaultState = {
 export default function picturesReducer(state = defaultState, action) {
   switch (action.type) {
     case 'FETCH_PICTURES_PENDING':
-      return Object.assign({}, state, {fetching: true});
+      return Object.assign({}, state, {fetching: true, error: null});
       break;
     case 'FETCH_PICTURES_FULFILLED':
       return Object.assign({}, {

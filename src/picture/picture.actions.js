@@ -15,7 +15,7 @@ export function fetchPictures(config) {
         })
       ),
       err => dispatch({
-        type: 'FETCH_QUESTION_REJECTED',
+        type: 'FETCH_PICTURES_REJECTED',
         payload: 'Error fetching pictures'
       })
     );
