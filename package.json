@@ -25,7 +25,7 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
     "whatwg-fetch": "^1.0.0",
-    "redux-thunk": "^2.1.0",
+    "redux-thunk": "^2.1.0"
   },
   "devDependencies": {
     "redux-logger": "^2.6.1",
