@@ -15,7 +15,7 @@ npm install
 ```
 
 ```
-npm run dev
+npm run start
 ```
 
 navigate to `localhost:8080`
